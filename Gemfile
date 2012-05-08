@@ -25,3 +25,7 @@ group :test do
   gem 'spork', '0.9.0.rc5'
   gem 'factory_girl_rails', '1.0'
 end
+
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+end
